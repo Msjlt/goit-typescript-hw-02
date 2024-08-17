@@ -1,0 +1,32 @@
+.searchBarContainer {
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  background-color: rgb(218, 239, 247);
+  padding: 10px 0;
+  text-align: center;
+}
+
+.field {
+  width: 250px;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+}
+
+.button {
+  margin-left: 20px;
+  background-color: rgb(23, 142, 182);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #d32f2f;
+}
